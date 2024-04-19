@@ -1,5 +1,8 @@
-https://kirillnizhnik.github.io/GoodChance/assets/home.html - main page
+https://kirillnizhnik.github.io/GoodChance/assets/home-new-user.html - Главная страница(Юзер не в аккаунте)
+https://kirillnizhnik.github.io/GoodChance/assets/home.html - Главная страница(Юзер в аккаунте)
 https://kirillnizhnik.github.io/GoodChance/assets/header-new-user.html - header new user
 https://kirillnizhnik.github.io/GoodChance/assets/header-auth-user.html - header auth user
-https://kirillnizhnik.github.io/GoodChance/assets/your-winner.html - your-winner
+https://kirillnizhnik.github.io/GoodChance/assets/your-winner.html - Ты выиграл лотерею
+https://kirillnizhnik.github.io/GoodChance/assets/your-looser.html - Ты проиграл лотерею
+
 https://kirillnizhnik.github.io/GoodChance/assets/current-lottery-tickets-not-found.html - tickets off

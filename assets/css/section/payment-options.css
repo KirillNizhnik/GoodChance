@@ -1,0 +1,32 @@
+.payment-options{
+    margin-top: 24px;
+}
+
+.payment-options-list-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.payment-options-logo{
+    display: block;
+    margin: 24px auto 0 auto;
+    align-items: center;
+}
+
+.payment-options-list-2{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-options-rights{
+    margin-top: 25px;
+    text-align: center;
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

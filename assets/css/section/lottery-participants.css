@@ -1,0 +1,95 @@
+tr, th, td{
+    padding: 0;
+}
+.lottery-participants{
+    margin-top: 24px;
+}
+
+.lottery-participants-table-head{
+    color:  #939393;
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lottery-participants-inner-title{
+    color:  #939393;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lottery-participants-table {
+    margin-top: 17px;
+    width: 100%;
+    table-layout: fixed;
+    background:  #262626;
+    border-radius: 16px 16px 0 0;
+
+}
+
+
+
+
+
+.lottery-participants-table th,
+.lottery-participants-table td {
+    width: 33.33%;
+}
+
+
+
+
+
+.lottery-participants-table-tr{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lottery-participants-table-item-td-first-elem{
+    color:  #00B448;
+
+}
+
+.lottery-participants-table-item-left {
+    padding-left: 16px;
+    text-align: left;
+}
+
+.lottery-participants-table-item-center {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.lottery-participants-table-item-right {
+    padding-right: 16px;
+    text-align: right;
+}
+
+
+
+.lottery-participants-btn{
+    width: 100%;
+    padding: 18px 16px;
+    background:  #202020;
+    border: none;
+    color:  #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+
+

@@ -1,0 +1,48 @@
+.lottery-results{
+    margin-top: 24px;
+}
+.lottery-results-your-winners{
+    padding: 16px;
+    text-align: center;
+    color:  #D4D4D4;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius:  20px;
+    border: 1px solid var(--Green, #008535);
+    background:  #262626;
+}
+
+.your-winners-text-2{
+    color: var(--Green, #00B448);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lottery-results-your-lose{
+    color:  #D4D4D4;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lottery-results-any-lottery{
+    padding: 10px 32px;
+    color: var(--Grey, #D4D4D4);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    border-radius: 100px;
+    border: 1px solid  #D4D4D4;
+}

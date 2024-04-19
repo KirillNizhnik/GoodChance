@@ -1,0 +1,50 @@
+.current-lottery{
+    margin-top: 24px;
+}
+
+.current-lottery-inner-img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.current-lottery-inner-actuality{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    color: var(--Green, #00B448);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.current-lottery-inner-actuality-status{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.current-lottery-inner-descr{
+    margin-top: 8px;
+    color:  #939393;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.current-lottery-inner-prize{
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+

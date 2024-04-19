@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="body">
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="#" class="header-logo-link">
+                <img src="images/logo.svg" alt="logo" class="header-logo-img">
+            </a>
+            <!--            <div class="header-content-unauthenticated-user">-->
+            <!--                <a href="#" class="header-content-unauthenticated-user-register-link">-->
+            <!--                    Регистрация-->
+            <!--                </a>-->
+            <!--                <a href="#" class="header-content-unauthenticated-user-login-link">-->
+            <!--                        <span class="header-content-unauthenticated-user-login-link-container">-->
+            <!--                            <img src="images/header-login.svg" alt="login" class="header-content-unauthenticated-user-login-link-container-img">-->
+            <!--                        </span>-->
+            <!--                </a>-->
+            <!--            </div>-->
+            <div class="header-content-authenticated-user">
+                <img src="images/header-btc-icon.svg" alt="btc-icon" class="header-content-authenticated-user-crypto-icon">
+                <p class="header-content-authenticated-user-balance">999.999.99<span class="header-content-authenticated-user-balance-icon">$</span></p>
+                <a href="" class="header-content-authenticated-user-wallet-link">
+                                <span class="header-content-authenticated-user-wallet-container">
+                                    <img src="images/wallet-icon.svg" alt="wallet" class="header-content-authenticated-user-wallet-container-img">
+                                </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="current-lottery">
+        <div class="container">
+            <div class="current-lottery-inner">
+                <img src="images/current-img.png" alt="" class="current-lottery-inner-img">
+                <div class="current-lottery-inner-actuality">
+                    <div class="current-lottery-inner-actuality-status">
+                        <img src="images/actuality.svg" alt="" class="current-lottery-inner-actuality-status-img">
+                        <span class="current-lottery-inner-actuality-status-span">
+                            Идет сейчас
+                        </span>
+                    </div>
+                    <span class="current-lottery-inner-actuality-status-time">
+                        00:10:00
+                    </span>
+                </div>
+                <p class="current-lottery-inner-descr">
+                    Биткоин за 5 гривен!
+                </p>
+                <div class="current-lottery-inner-prize">
+                    <span class="current-lottery-inner-prize-text">
+                        Главный приз
+                    </span>
+                    <span class="current-lottery-inner-prize-value">
+                        1 bitcoin
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="current-lottery-progress-bar">
+        <div class="container">
+            <div class="current-lottery-progress-bar-inner">
+                <div class="current-lottery-progress-bar-inner-info">
+                    <span class="current-lottery-progress-bar-inner-info-text">
+                        Билетов куплено:
+                    </span>
+                    <p class="current-lottery-progress-bar-inner-info-numbers">
+                        <span class="current-lottery-progress-bar-inner-info-numbers-tickets-purchased">
+                            5000
+                        </span>
+                        /
+                        <span class="current-lottery-progress-bar-inner-info-numbers-tickets">
+                            10 000
+                        </span>
+                    </p>
+                </div>
+                <div class="current-lottery-progress-bar-inner-content">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const ticketsPurchased = document.querySelector('.current-lottery-progress-bar-inner-info-numbers-tickets-purchased');
+            const totalTickets = document.querySelector('.current-lottery-progress-bar-inner-info-numbers-tickets');
+            const progressBar = document.querySelector('.progress-bar');
+            const purchased = parseInt(ticketsPurchased.textContent.trim());
+            const total = parseInt(totalTickets.textContent.trim().replace(/\s+/g, ''));
+            const progress = (purchased / total) * 100;
+
+            // Устанавливаем ширину полосы прогресса
+            progressBar.style.width = `${progress}%`;
+
+        </script>
+    </section>
+    <section class="your-tickets">
+        <div class="container">
+            <div class="your-tickets-inner">
+                <div class="your-tickets-inner-item">
+                    <div class="your-tickets-inner-item-title">Ваши билеты</div>
+                    <div class="your-tickets-inner-item-descr">5</div>
+                </div>
+                <div class="your-tickets-inner-item">
+                    <div class="your-tickets-inner-item-title">Шанс выигрыша</div>
+                    <div class="your-tickets-inner-item-descr your-tickets-inner-item-descr-orange ">(0.50%)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="buy-tickets">
+        <div class="container">
+            <div class="buy-tickets-inner">
+                <a href="#" class="buy-tickets-inner-link">
+                    Купить билеты
+                </a>
+<!--                <span class="buy-tickets-stop">-->
+<!--                    Билеты раскуплены, скоро розыгрыш-->
+<!--                </span>-->
+                <p class="buy-tickets-inner-descr">
+                    Авторозыгрыш лотереи произойдет через 10 минут, после продажи последнего билета!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-inner-menu">
+                <a href="" class="footer-inner-menu-link">
+                    <img src="/assets/images/footer/search.svg" alt="" class="footer-inner-menu-link-img">
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                    <img src="/assets/images/footer/heart.svg" alt="" class="footer-inner-menu-link-img">
+                </a>
+                <a href="" class="footer-inner-menu-link footer-inner-menu-link-active">
+                    <img src="/assets/images/footer/home.svg" alt="" class="footer-inner-menu-link-img">
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                    <img src="/assets/images/footer/cap.svg" alt="" class="footer-inner-menu-link-img">
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                    <img src="/assets/images/footer/burger.svg" alt="" class="footer-inner-menu-link-img">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

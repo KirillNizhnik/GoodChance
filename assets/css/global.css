@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --Grey: #D4D4D4;
+    --Dark-Grey: #939393;
+    --White: #FFF;
+    --Green: #008535;
+    --gradient-start: #484848;
+    --gradient-end: #262626;
+    --Orange: #D45F1C
+
+}
+
+.body {
+    font-family: "Noto Sans", sans-serif;
+    background-image: linear-gradient(180deg, #222 0%, #0D0D0D 100%);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+::selection {
+    /*background-color: var(--beige-dark);*/
+    /*color: var(--brown-dark);*/
+}
+
+
+img {
+    display: block;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+svg {
+    display: block;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+button {
+    cursor: pointer;
+    border: none;
+    display: block;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 412px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your-looser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="body">
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="#" class="header-logo-link">
+                <img src="images/logo.svg" alt="logo" class="header-logo-img">
+            </a>
+            <!--            <div class="header-content-unauthenticated-user">-->
+            <!--                <a href="#" class="header-content-unauthenticated-user-register-link">-->
+            <!--                    Регистрация-->
+            <!--                </a>-->
+            <!--                <a href="#" class="header-content-unauthenticated-user-login-link">-->
+            <!--                        <span class="header-content-unauthenticated-user-login-link-container">-->
+            <!--                            <img src="images/header-login.svg" alt="login" class="header-content-unauthenticated-user-login-link-container-img">-->
+            <!--                        </span>-->
+            <!--                </a>-->
+            <!--            </div>-->
+            <div class="header-content-authenticated-user">
+                <img src="images/header-btc-icon.svg" alt="btc-icon" class="header-content-authenticated-user-crypto-icon">
+                <p class="header-content-authenticated-user-balance">999.999.99<span class="header-content-authenticated-user-balance-icon">$</span></p>
+                <a href="" class="header-content-authenticated-user-wallet-link">
+                                <span class="header-content-authenticated-user-wallet-container">
+                                    <img src="images/wallet-icon.svg" alt="wallet" class="header-content-authenticated-user-wallet-container-img">
+                                </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <section class="current-lottery">
+        <div class="container">
+            <div class="current-lottery-inner">
+                <img src="images/current-img.png" alt="" class="current-lottery-inner-img">
+                <div class="current-lottery-inner-actuality">
+                    <div class="current-lottery-inner-actuality-status">
+                        <span class="current-lottery-inner-actuality-status-span">
+                            Разыграно!
+                        </span>
+                    </div>
+                    <span class="current-lottery-inner-actuality-status-time">
+                        13.02.2027
+                    </span>
+                </div>
+                <p class="current-lottery-inner-descr">
+                    Биткоин за 5 гривен!
+                </p>
+                <div class="current-lottery-inner-prize">
+                    <span class="current-lottery-inner-prize-text">
+                        Главный приз
+                    </span>
+                    <span class="current-lottery-inner-prize-value">
+                        1 bitcoin
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="lottery-results">
+        <div class="container">
+<!--            <div class="lottery-results-your-winners">-->
+<!--                <p class="your-winners-text-1">Поздравляем!</p>-->
+<!--                <p class="your-winners-text-2">Вы выйграли 1 биткоин!</p>-->
+<!--                <p class="your-winners-text-3">Выигрыш перечислен на ваш баланс</p>-->
+<!--            </div>-->
+                        <p class="lottery-results-your-lose">
+                            Лотерея завершена, к сожалению удача улыбнулась не вам. Попробуйте другие лотереи!
+                        </p>
+            <a href="" class="lottery-results-any-lottery">
+                Другие лотереи
+            </a>
+        </div>
+    </section>
+
+    <section class="your-tickets">
+        <div class="container">
+            <div class="your-tickets-inner">
+                <div class="your-tickets-inner-item">
+                    <div class="your-tickets-inner-item-title">Победитель!</div>
+                    <div class="your-tickets-inner-item-descr">Sergey</div>
+                </div>
+                <div class="your-tickets-inner-item">
+                    <div class="your-tickets-inner-item-title">Билеты</div>
+                    <div class="your-tickets-inner-item-descr ">1000</div>
+                </div>
+                <div class="your-tickets-inner-item">
+                    <div class="your-tickets-inner-item-title">Шанс выигрыша</div>
+                    <div class="your-tickets-inner-item-descr your-tickets-inner-item-descr-green">(0.50%)</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="lottery-participants">
+        <div class="container">
+            <div class="lottery-participants-inner">
+                <h4 class="lottery-participants-inner-title">
+                    Участники лотереи
+                </h4>
+                <table class="lottery-participants-table">
+                    <thead>
+                    <tr class="lottery-participants-table-tr">
+                        <th class="lottery-participants-table-item-left lottery-participants-table-head lottery-participants-table-item-td">Имя</th>
+                        <th class="lottery-participants-table-item-center lottery-participants-table-head lottery-participants-table-item-td">Билеты</th>
+                        <th class="lottery-participants-table-item-right lottery-participants-table-head lottery-participants-table-item-td">Шанс</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr class="lottery-participants-table-tr">
+                        <td class="lottery-participants-table-item-left lottery-participants-table-item-td lottery-participants-table-item-td-first-elem">Участник 1</td>
+                        <td class="lottery-participants-table-item-center lottery-participants-table-item-td lottery-participants-table-item-td-first-elem">5</td>
+                        <td class="lottery-participants-table-item-right lottery-participants-table-item-td lottery-participants-table-item-td-first-elem">20%</td>
+                    </tr >
+                    <tr class="lottery-participants-table-tr">
+                        <td class="lottery-participants-table-item-left lottery-participants-table-item-td">Участник 2</td>
+                        <td class="lottery-participants-table-item-center lottery-participants-table-item-td">8</td>
+                        <td class="lottery-participants-table-item-right lottery-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="lottery-participants-table-tr">
+                        <td class="lottery-participants-table-item-left lottery-participants-table-item-td">Учасник 3</td>
+                        <td class="lottery-participants-table-item-center lottery-participants-table-item-td">8</td>
+                        <td class="lottery-participants-table-item-right lottery-participants-table-item-td">32%</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+                <button class="lottery-participants-btn">
+                    Смотреть всех
+                </button>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-inner-menu">
+                <a href="" class="footer-inner-menu-link">
+                    <span class="footer-inner-menu-link-content ">
+                        <img src="images/footer/search.svg" alt="" class="footer-inner-menu-link-img">
+                    </span>
+                    Пошук
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                   <span class="footer-inner-menu-link-content ">
+                        <img src="images/footer/heart.svg" alt="" class="footer-inner-menu-link-img">
+                   </span>
+                    Избраное
+                </a>
+                <a href="" class="footer-inner-menu-link ">
+                   <span class="footer-inner-menu-link-content footer-inner-menu-link-active">
+                       <img src="images/footer/home.svg" alt="" class="footer-inner-menu-link-img">
+                   </span>
+                    Главная
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                    <span class="footer-inner-menu-link-content ">
+                        <img src="images/footer/cap.svg" alt="" class="footer-inner-menu-link-img">
+                    </span>
+                    Все лотереи
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                    <span class="footer-inner-menu-link-content ">
+                    <img src="images/footer/burger.svg" alt="" class="footer-inner-menu-link-img">
+                    </span>
+                    Меню
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

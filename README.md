@@ -13,7 +13,7 @@ https://kirillnizhnik.github.io/GoodChance/assets/list-parcticipants.html - Cп�
 
 https://kirillnizhnik.github.io/GoodChance/assets/archive.html - Архив игр
 
-https://kirillnizhnik.github.io/GoodChance/assets/list-parcticipants.html - Cписок архивных игр(Pop-up)
+https://kirillnizhnik.github.io/GoodChance/assets/all-past-lotteries.html - Cписок архивных игр(Pop-up)
 
 https://kirillnizhnik.github.io/GoodChance/assets/header-new-user.html - header new user
 https://kirillnizhnik.github.io/GoodChance/assets/header-auth-user.html - header auth user

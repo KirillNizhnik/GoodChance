@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your-winner</title>
+    <title>List participants</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
 </head>
-<body class="body">
+<body class="body body-popup">
 <header class="header">
     <div class="container">
         <div class="header-inner">
@@ -76,9 +76,9 @@
                 <p class="your-winners-text-2">Вы выйграли 1 биткоин!</p>
                 <p class="your-winners-text-3">Выигрыш перечислен на ваш баланс</p>
             </div>
-<!--            <p class="lottery-results-your-lose">-->
-<!--                Лотерея завершена, к сожалению удача улыбнулась не вам. Попробуйте другие лотереи!-->
-<!--            </p>-->
+            <!--            <p class="lottery-results-your-lose">-->
+            <!--                Лотерея завершена, к сожалению удача улыбнулась не вам. Попробуйте другие лотереи!-->
+            <!--            </p>-->
             <a href="" class="lottery-results-any-lottery">
                 Другие лотереи
             </a>
@@ -104,6 +104,7 @@
             </div>
         </div>
     </section>
+
 
     <section class="lottery-participants">
         <div class="container">
@@ -145,7 +146,116 @@
             </div>
         </div>
     </section>
+    <div class="list-participants">
+        <div class="container">
+            <div class="list-participants-inner">
+                <div class="list-participants-inner-content">
+                    <img src="images/internet.svg" alt="" class="list-participants-inner-internet">
+                    <h4 class="list-participants-inner-title">Прошедшие лотереи</h4>
+                    <div class="list-participants-inner-close">
+                        <img src="images/close.svg" alt="" class="list-participants-inner-close-img">
+                    </div>
+                </div>
+                <table class="list-participants-table">
+                    <thead>
+                    <tr class="list-participants-table-tr">
+                        <th class="list-participants-table-item-left list-participants-table-head list-participants-table-item-td">Имя</th>
+                        <th class="list-participants-table-item-center list-participants-table-head list-participants-table-item-td">Билеты</th>
+                        <th class="list-participants-table-item-right list-participants-table-head list-participants-table-item-td">Шанс</th>
+                    </tr>
+                    </thead>
+                    <tbody class="list-participants-table-tbody">
 
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td list-participants-table-item-td-first-elem">Участник 1</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td list-participants-table-item-td-first-elem">5</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td list-participants-table-item-td-first-elem">20%</td>
+                    </tr >
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Участник 2</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    <tr class="list-participants-table-tr">
+                        <td class="list-participants-table-item-left list-participants-table-item-td">Учасник 3</td>
+                        <td class="list-participants-table-item-center list-participants-table-item-td">8</td>
+                        <td class="list-participants-table-item-right list-participants-table-item-td">32%</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
 
 

@@ -1,0 +1,93 @@
+.all-past-lotteries {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 3vh;
+    height: 94vh;
+    overflow-y: hidden;
+}
+
+.all-past-lotteries{
+}
+
+.all-past-lotteries-inner{
+    border-radius: 16px;
+    background:  #262626;
+}
+
+.all-past-lotteries-inner-content{
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.25) inset;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.all-post-lotteries-inner-list{
+    display: block;
+    overflow-y: auto;
+    height: 87vh;
+}
+
+.all-post-lotteries-inner-list::-webkit-scrollbar {
+    width: 4px;
+    position: absolute;
+    left: 0;
+}
+
+.all-post-lotteries-inner-list::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.all-post-lotteries-inner-list::-webkit-scrollbar-thumb {
+    background-color: #939393;
+    border-radius: 20px;
+    opacity: 0.5;
+}
+
+.all-post-lotteries-inner-list-item{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.all-post-lotteries-inner-list-item-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 5%;
+}
+
+.all-post-lotteries-inner-list-item-info-date{
+    color: #00B448;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all-post-lotteries-inner-list-item-info-descr{
+    color:  #D4D4D4;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all-post-lotteries-inner-list-item-info-prize{
+    color:  #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.all-post-lotteries-inner-list-item-link{
+    margin-left: auto;
+}

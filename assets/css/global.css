@@ -25,6 +25,11 @@
 }
 
 
+.body-dark-bg{
+    background-image: unset;
+    background-color:  #141414;
+}
+
 ::selection {
     /*background-color: var(--beige-dark);*/
     /*color: var(--brown-dark);*/

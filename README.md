@@ -9,9 +9,11 @@ https://kirillnizhnik.github.io/GoodChance/assets/current-lottery-tickets-not-fo
 https://kirillnizhnik.github.io/GoodChance/assets/your-winner.html - Ты выиграл лотерею
 https://kirillnizhnik.github.io/GoodChance/assets/your-looser.html - Ты проиграл лотерею
 
-https://kirillnizhnik.github.io/GoodChance/assets/list-parcticipants.html - Cписок участников поп-ап
+https://kirillnizhnik.github.io/GoodChance/assets/list-parcticipants.html - Cписок участников(Pop-up)
 
 https://kirillnizhnik.github.io/GoodChance/assets/archive.html - Архив игр
+
+https://kirillnizhnik.github.io/GoodChance/assets/all-past-lotteries.html - Cписок архивных игр(Pop-up)
 
 https://kirillnizhnik.github.io/GoodChance/assets/header-new-user.html - header new user
 https://kirillnizhnik.github.io/GoodChance/assets/header-auth-user.html - header auth user

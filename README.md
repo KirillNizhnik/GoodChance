@@ -17,6 +17,9 @@ https://kirillnizhnik.github.io/GoodChance/assets/all-past-lotteries.html - Cп�
 
 https://kirillnizhnik.github.io/GoodChance/assets/faq.html - Faq
 
+https://kirillnizhnik.github.io/GoodChance/assets/transactions.html - Cписок транзакций
+
+
 
 https://kirillnizhnik.github.io/GoodChance/assets/header-new-user.html - header new user
 https://kirillnizhnik.github.io/GoodChance/assets/header-auth-user.html - header auth user

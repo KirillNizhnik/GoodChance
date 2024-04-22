@@ -23,7 +23,7 @@ https://kirillnizhnik.github.io/GoodChance/assets/faq.html - Faq
 
 https://kirillnizhnik.github.io/GoodChance/assets/transactions.html - Cписок транзакций
 
-https://kirillnizhnik.github.io/GoodChance/assets/cash-register.html
+https://kirillnizhnik.github.io/GoodChance/assets/cash-register.html - Касса
 
 
 Общее

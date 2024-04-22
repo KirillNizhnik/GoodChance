@@ -44,5 +44,9 @@
 }
 
 .faq-answer{
-    padding: 16px 0;
+    padding: 16px;
+}
+
+.faq-answer p +  p{
+    margin-top: 8px;
 }

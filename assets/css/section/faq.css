@@ -15,6 +15,9 @@
     display: block;
 }
 
+.faq-toggle:checked + .faq-title img {
+    rotate: 180deg;
+}
 .faq-title{
     cursor: pointer;
     color: var(--White, #FFF);

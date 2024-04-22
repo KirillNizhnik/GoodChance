@@ -1,0 +1,76 @@
+.cash-register{
+    margin-top: 24px;
+}
+
+.cash-register-grey-bg{
+    background-color: #1f1f1f;
+}
+
+.cash-register-title{
+    padding: 16px 0;
+    text-align: center;
+    color: var(--Grey, #D4D4D4);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cash-register-item{
+    padding: 18px 0;
+    display: flex;justify-content: space-between;
+    align-items: center;
+}
+
+.cash-register-item-left-column{
+    display: flex;
+    gap: 13px;
+}
+
+.cash-register-item-currency{
+    display: flex;
+    gap: 3px;
+    color: var(--White, #FFF);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cash-register-item-info{
+    color: #939393;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cash-register-item-icon{
+    width: 40px;
+}
+
+
+.cash-register-item-right-column{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: right;
+}
+
+.cash-register-item-right-value-1{
+    color: var(--White, #FFF);
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cash-register-item-right-value-2{
+    color:  #939393;
+    text-align: right;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

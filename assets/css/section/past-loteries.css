@@ -1,0 +1,108 @@
+.past-lotteries{
+    margin-top: 25px;
+}
+
+.past-lotteries-inner-title{
+    color:  #939393;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.past-lotteries-inner-content{
+    background:  #262626;
+    border-radius: 16px;
+}
+.past-lotteries-inner-list{
+    margin-top: 17px;
+}
+
+
+.past-lotteries-inner-list-item{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
+.past-lotteries-inner-list-item-info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-left: 5%;
+}
+
+
+.past-lotteries-inner-list-item-icon{
+    width: 40px;
+}
+.past-lotteries-inner-list-item-info-date{
+    color: var(--Green, #00B448);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.past-lotteries-inner-list-item-info-descr{
+    width: auto;
+    max-width: 252px;
+    color: var(--Grey, #D4D4D4);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.past-lotteries-inner-list-item-info-prize{
+    color: var(--White, #FFF);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.past-lotteries-inner-list-item-link{
+    padding: 0 16px 0 8px ;
+    margin-left: auto;
+}
+
+
+.past-lotteries-inner-pagination{
+    padding: 18px 24px 18px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.past-lotteries-inner-pagination-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 148px;
+}
+
+
+.past-lotteries-inner-pagination-btn{
+    background-color: transparent;
+}
+
+.past-lotteries-inner-pagination-info{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.past-lotteries-inner-show-all{
+    background-color: transparent;
+    color: var(--White, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0;
+}

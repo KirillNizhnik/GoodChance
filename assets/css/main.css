@@ -14,3 +14,6 @@
 @import "section/lottery-result.css";
 @import "section/lottery-participants.css";
 @import "section/list-participants.css";
+@import "section/general-statistics.css";
+@import "section/past-loteries.css";
+@import "section/all-past-lotteries.css";

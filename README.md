@@ -2,7 +2,7 @@ https://kirillnizhnik.github.io/GoodChance/assets/home-new-user.html - Глав�
 https://kirillnizhnik.github.io/GoodChance/assets/home.html - Главная страница(Юзер в аккаунте)
 https://kirillnizhnik.github.io/GoodChance/assets/favorites.html - Избранное(главная)
 
-https://kirillnizhnik.github.io/GoodChance/assets/current-lottery.html - Текущий розыгриш
+https://kirillnizhnik.github.io/GoodChance/assets/current-lottery.html - Текущий розыгрыш
 https://kirillnizhnik.github.io/GoodChance/assets/current-lottery-tickets-not-found.html - Билеты закончились скоро розыгриш
 
 

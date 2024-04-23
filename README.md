@@ -31,9 +31,13 @@ https://kirillnizhnik.github.io/GoodChance/assets/withdraw.html - Вывод
 
 Персональный-аккаунт
 
-https://kirillnizhnik.github.io/GoodChance/assets/personal-account.html
+https://kirillnizhnik.github.io/GoodChance/assets/personal-account.html - Аккаунт
 
-https://kirillnizhnik.github.io/GoodChance/assets/verification.html
+https://kirillnizhnik.github.io/GoodChance/assets/verification.html - Верификация
+
+https://kirillnizhnik.github.io/GoodChance/assets/fail-verification.html - Ошибка Верификации
+
+https://kirillnizhnik.github.io/GoodChance/assets/successful-verification.html - Успешная верификация
 
 
 Общее

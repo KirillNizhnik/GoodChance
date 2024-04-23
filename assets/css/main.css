@@ -21,4 +21,6 @@
 @import "section/faq.css";
 @import "section/transactions.css";
 @import "section/cash-register.css";
+@import "section/deposit-or-withdraw.css";
+@import "section/cash-register-detail.css";
 

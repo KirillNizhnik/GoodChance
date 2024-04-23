@@ -1,0 +1,31 @@
+.cash-register-detail{
+    margin-top: 16px;
+}
+
+.cash-register-detail-item{
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cash-register-detail-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cash-register-detail-item-info{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.cash-register-detail-item{
+    color: var(--White, #FFF);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,0 +1,169 @@
+.deposit-or-withdraw{
+    margin-top: 24px;
+}
+
+.deposit-or-withdraw-light-grey-bg{
+    background-color: #262626;
+}
+
+.deposit-or-withdraw-dark-grey-bg{
+    background-color: #1E1E1E;
+}
+
+.deposit-or-withdraw-val{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deposit-or-withdraw-col-1{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.deposit-or-withdraw-img{
+    width: 40px;
+}
+
+.deposit-or-withdraw-col-1-currency-shirt{
+    color: var(--White, #FFF);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deposit-or-withdraw-col-1-currency-long{
+    color: var(--Grey, #939393);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.deposit-or-withdraw-col-2{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.deposit-or-withdraw-col-2-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.deposit-or-withdraw-col-2-value{
+    text-align: right;
+    color: var(--White, #FFF);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.deposit-or-withdraw-col-2-com{
+    text-align: right;
+    color:  #939393;
+
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.deposit-or-withdraw-select{
+    padding: 16px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    gap: 16px;
+
+}
+
+.deposit-or-withdraw-select-item{
+    max-width: 181px;
+    width: 50%;
+    color:  #939393;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 16px;
+    border-radius: 20px 20px 0 0;
+    background:  #262626;
+}
+
+.deposit-or-withdraw-select-active{
+    color: var(--White, #FFF);
+    background:  #141414;
+}
+
+.deposit-warning{
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 20px;
+    background:  #262626;
+    color:  #939393;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.deposit-qr-code{
+    margin: 16px auto 0 auto;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.deposit-warning-1{
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: var(--Orange, #D45F1C);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.deposit-details{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.deposit-details-wallet{
+    color: var(--White, #FFF);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 300px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.deposit-details-btn{
+    display: flex;
+    gap: 8px;
+}
+
+.deposit-details-btn-copy{
+    background: transparent;
+}
+
+
+
+
+
+
+

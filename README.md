@@ -25,6 +25,10 @@ https://kirillnizhnik.github.io/GoodChance/assets/transactions.html - Cписо�
 
 https://kirillnizhnik.github.io/GoodChance/assets/cash-register.html - Касса
 
+https://kirillnizhnik.github.io/GoodChance/assets/deposit.html - Депозит
+
+https://kirillnizhnik.github.io/GoodChance/assets/withdraw.html - Вывод
+
 
 Общее
 

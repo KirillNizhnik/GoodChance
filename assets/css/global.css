@@ -113,6 +113,34 @@ button {
 
 
 
+input:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*base form*/
+
+.base-input-label{
+    color:  #939393;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 
 

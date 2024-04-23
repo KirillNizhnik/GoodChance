@@ -29,6 +29,12 @@ https://kirillnizhnik.github.io/GoodChance/assets/deposit.html - Депозит
 
 https://kirillnizhnik.github.io/GoodChance/assets/withdraw.html - Вывод
 
+Персональный-аккаунт
+
+https://kirillnizhnik.github.io/GoodChance/assets/personal-account.html
+
+https://kirillnizhnik.github.io/GoodChance/assets/verification.html
+
 
 Общее
 

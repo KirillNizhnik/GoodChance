@@ -97,3 +97,50 @@
     border-radius: 100px;
     background:  #262626;
 }
+
+
+.verification-user-error{
+    color:  #F33;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.verification-user-successful{
+    color: var(--Green, #00B448);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.verification-user-successful-img{
+}
+.verification-user-successful{
+
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    max-width: 100%;
+}
+
+.verification-user-complete{
+    border-radius: 100px;
+    width: 100%;
+    margin-top: 24px;
+    background: var(--Green, #008535);
+    padding: 10px 76px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+

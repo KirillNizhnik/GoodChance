@@ -1,33 +1,33 @@
-.deposit-or-withdraw{
+.deposit-or-withdraw {
     margin-top: 24px;
 }
 
-.deposit-or-withdraw-light-grey-bg{
+.deposit-or-withdraw-light-grey-bg {
     background-color: #262626;
 }
 
-.deposit-or-withdraw-dark-grey-bg{
+.deposit-or-withdraw-dark-grey-bg {
     background-color: #1E1E1E;
 }
 
-.deposit-or-withdraw-val{
+.deposit-or-withdraw-val {
     padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.deposit-or-withdraw-col-1{
+.deposit-or-withdraw-col-1 {
     display: flex;
     align-items: center;
     gap: 13px;
 }
 
-.deposit-or-withdraw-img{
+.deposit-or-withdraw-img {
     width: 40px;
 }
 
-.deposit-or-withdraw-col-1-currency-shirt{
+.deposit-or-withdraw-col-1-currency-shirt {
     color: var(--White, #FFF);
     font-size: 15px;
     font-style: normal;
@@ -35,7 +35,7 @@
     line-height: normal;
 }
 
-.deposit-or-withdraw-col-1-currency-long{
+.deposit-or-withdraw-col-1-currency-long {
     color: var(--Grey, #939393);
     font-size: 13px;
     font-style: normal;
@@ -43,19 +43,19 @@
     line-height: normal;
 }
 
-.deposit-or-withdraw-col-2{
+.deposit-or-withdraw-col-2 {
     display: flex;
     align-items: center;
     gap: 13px;
 }
 
-.deposit-or-withdraw-col-2-info{
+.deposit-or-withdraw-col-2-info {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
 
-.deposit-or-withdraw-col-2-value{
+.deposit-or-withdraw-col-2-value {
     text-align: right;
     color: var(--White, #FFF);
     font-size: 15px;
@@ -64,9 +64,9 @@
     line-height: normal;
 }
 
-.deposit-or-withdraw-col-2-com{
+.deposit-or-withdraw-col-2-com {
     text-align: right;
-    color:  #939393;
+    color: #939393;
 
     font-size: 13px;
     font-style: normal;
@@ -74,7 +74,7 @@
     line-height: normal;
 }
 
-.deposit-or-withdraw-select{
+.deposit-or-withdraw-select {
     padding: 16px 0 0 0;
     display: flex;
     align-items: center;
@@ -84,10 +84,10 @@
 
 }
 
-.deposit-or-withdraw-select-item{
+.deposit-or-withdraw-select-item {
     max-width: 181px;
     width: 50%;
-    color:  #939393;
+    color: #939393;
     text-align: center;
     font-size: 15px;
     font-style: normal;
@@ -95,20 +95,20 @@
     line-height: normal;
     padding: 8px 16px;
     border-radius: 20px 20px 0 0;
-    background:  #262626;
+    background: #262626;
 }
 
-.deposit-or-withdraw-select-active{
+.deposit-or-withdraw-select-active {
     color: var(--White, #FFF);
-    background:  #141414;
+    background: #141414;
 }
 
-.deposit-warning{
+.deposit-warning {
     margin-top: 24px;
     padding: 16px;
     border-radius: 20px;
-    background:  #262626;
-    color:  #939393;
+    background: #262626;
+    color: #939393;
     text-align: center;
     font-size: 14px;
     font-style: normal;
@@ -116,14 +116,14 @@
     line-height: normal;
 }
 
-.deposit-qr-code{
+.deposit-qr-code {
     margin: 16px auto 0 auto;
     max-width: 300px;
     display: flex;
     align-items: center;
 }
 
-.deposit-warning-1{
+.deposit-warning-1 {
     display: block;
     text-align: center;
     width: 100%;
@@ -134,14 +134,14 @@
     line-height: normal;
 }
 
-.deposit-details{
+.deposit-details {
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.deposit-details-wallet{
+.deposit-details-wallet {
     color: var(--White, #FFF);
     font-size: 15px;
     font-style: normal;
@@ -152,14 +152,97 @@
     cursor: pointer;
 }
 
-.deposit-details-btn{
+.deposit-details-btn {
     display: flex;
     gap: 8px;
 }
 
-.deposit-details-btn-copy{
+.deposit-details-btn-copy {
     background: transparent;
 }
+
+.withdraw-label{
+    color: #939393;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.withdraw-warning{
+    margin-top: 24px;
+    padding: 16px;
+    border-radius: 20px;
+    background: #262626;
+    color: #939393;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.withdraw-input-icon{
+    position: absolute;
+    top: 30px;
+    left: 12px;
+}
+
+.withdraw-form-inputs{
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.withdraw-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+}
+
+.withdraw-input{
+    padding: 8px 12px 8px 44px;
+    height: 40px;
+    border-radius: 100px;
+    background: var(--White, #FFF);
+}
+
+
+.withdraw-input{
+    display: block;
+    border: none;
+}
+
+.withdraw-form-warning{
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    color: var(--Orange, #D45F1C);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.withdraw-form-submit{
+    margin-top: 24px;
+    padding: 10px 76px;
+    width: 100%;
+    border-radius: 100px;
+    background: var(--Green, #008535);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
 
 
 

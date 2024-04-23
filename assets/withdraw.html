@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withdraw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="body body-dark-bg">
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="#" class="header-logo-link">
+                <img src="images/logo.svg" alt="logo" class="header-logo-img">
+            </a>
+            <!--            <div class="header-content-unauthenticated-user">-->
+            <!--                <a href="#" class="header-content-unauthenticated-user-register-link">-->
+            <!--                    Регистрация-->
+            <!--                </a>-->
+            <!--                <a href="#" class="header-content-unauthenticated-user-login-link">-->
+            <!--                        <span class="header-content-unauthenticated-user-login-link-container">-->
+            <!--                            <img src="images/header-login.svg" alt="login" class="header-content-unauthenticated-user-login-link-container-img">-->
+            <!--                        </span>-->
+            <!--                </a>-->
+            <!--            </div>-->
+            <div class="header-content-authenticated-user">
+                <img src="images/header-btc-icon.svg" alt="btc-icon"
+                     class="header-content-authenticated-user-crypto-icon">
+                <p class="header-content-authenticated-user-balance">999.999.99<span
+                        class="header-content-authenticated-user-balance-icon">$</span></p>
+                <a href="" class="header-content-authenticated-user-wallet-link">
+                                <span class="header-content-authenticated-user-wallet-container">
+                                    <img src="images/wallet-icon.svg" alt="wallet"
+                                         class="header-content-authenticated-user-wallet-container-img">
+                                </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs-inner">
+                <a href="" class="breadcrumbs-link-back">
+                    <img src="images/pagination-back-arrow.svg" alt="" class="breadcrumbs-link-back_img">
+                </a>
+                <div class="breadcrumbs-title-container">
+                    <h4 class="breadcrumbs-title">
+                        Касса
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="deposit-or-withdraw">
+        <div class="container deposit-or-withdraw-light-grey-bg">
+            <div class="deposit-or-withdraw-val">
+                <div class="deposit-or-withdraw-col-1">
+                    <img src="images/header-btc-icon.svg" alt="" class="deposit-or-withdraw-img">
+                    <div class="deposit-or-withdraw-col-1-info">
+                <span class="deposit-or-withdraw-col-1-currency-shirt">
+                  BTC
+                </span>
+                        <div class="deposit-or-withdraw-col-1-currency-long">
+                            Bitcoin
+                        </div>
+                    </div>
+                </div>
+                <div class="deposit-or-withdraw-col-2">
+                    <div class="deposit-or-withdraw-col-2-info">
+                    <span class="deposit-or-withdraw-col-2-value">
+                        0.00$
+                    </span>
+                        <span class="deposit-or-withdraw-col-2-com">
+                        0.00
+                    </span>
+                    </div>
+                    <img src="images/bottom-arrow-faq.svg" alt="" class="deposit-or-withdraw-arrow-down">
+                </div>
+            </div>
+        </div>
+        <div class="container deposit-or-withdraw-dark-grey-bg">
+            <div class="deposit-or-withdraw-select">
+                <a href="#" class="deposit-or-withdraw-select-item ">
+                    Deposit
+                </a>
+                <a href="#" class="deposit-or-withdraw-select-item deposit-or-withdraw-select-active">
+                    Withdraw
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="withdraw-inner">
+                <p class="withdraw-warning">
+                    Внимание! Указывайте кошелек Tether TRC20
+                    Выплаты в другие сети будут отменены
+                </p>
+                <form action="" class="withdraw-form">
+                    <div class="withdraw-form-inputs">
+                    <div class="withdraw-input-container">
+                        <label for="withdraw-Amount" class="withdraw-label">
+                            <img class="withdraw-input-icon" src="images/wallet-withdraw.svg" alt="Иконка">
+                            Сумма вывода:
+                        </label>
+                        <input type="text" class="withdraw-input" id="withdraw-Amount" placeholder="Введите сумму">
+                    </div>
+                    <div class="withdraw-input-container">
+                        <label for="withdraw-Number" class="withdraw-label">
+                            <img class="withdraw-input-icon" src="images/qr-icon.svg" alt="Иконка">
+                            Сумма вывода:
+                        </label>
+                        <input type="text" class="withdraw-input" id="withdraw-Number" placeholder="Введите номер">
+                    </div>
+                    </div>
+                    <span class="withdraw-form-warning">
+                        Минимальный вывод 10 USDT
+                    </span>
+                    <input class="withdraw-form-submit" type="submit" value="Далее">
+                </form>
+            </div>
+        </div>
+        <!--        <div class="container">-->
+        <!--            <div class="deposit-inner">-->
+        <!--                <p class="deposit-warning">-->
+        <!--                    Внимание! Указывайте кошелек Tether TRC20-->
+        <!--                    Выплаты в другие сети будут отменены-->
+        <!--                </p>-->
+        <!--            </div>-->
+        <!--            <img src="images/qr-code.png" alt="" class="deposit-qr-code">-->
+        <!--            <span class="deposit-warning-1">Минимальный депозит 10 USDT</span>-->
+        <!--            <div class="deposit-details">-->
+        <!--                <span id="wallet" class="deposit-details-wallet">TKxW3h8ZNLuR8HQvK2GFiiR5cYaFPm9XBp</span>-->
+        <!--                <div class="deposit-details-btn">-->
+        <!--                    <button id="deposit-details-btn-copy" class="deposit-details-btn-copy">-->
+        <!--                        <img src="images/copy.svg" alt="" class="deposit-details-btn-copy-img">-->
+        <!--                    </button>-->
+        <!--                    <img src="images/top-arrow-faq.svg" alt="" class="deposit-details-arrow-up">-->
+        <!--                </div>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--        <script>-->
+        <!--            document.addEventListener('DOMContentLoaded', function() {-->
+        <!--                let walletSpan = document.getElementById('wallet');-->
+        <!--                let walletText = walletSpan.textContent;-->
+        <!--                let btnCopy = document.getElementById('deposit-details-btn-copy')-->
+        <!--                let midpoint = Math.ceil(walletText.length / 2);-->
+        <!--                let firstHalf = walletText.substring(0, midpoint);-->
+        <!--                let secondHalf = walletText.substring(midpoint);-->
+        <!--                walletSpan.textContent = firstHalf + '...' + secondHalf;-->
+
+        <!--                function copyToClipboard() {-->
+        <!--                    let textToCopy = walletText;-->
+        <!--                    navigator.clipboard.writeText(textToCopy)-->
+        <!--                        .then(() => console.log('Текст скопирован в буфер обмена: ', textToCopy))-->
+        <!--                        .catch(err => console.error('Ошибка копирования: ', err));-->
+        <!--                }-->
+
+        <!--                btnCopy.addEventListener('click', copyToClipboard);-->
+        <!--                walletSpan.addEventListener('click', copyToClipboard);-->
+
+        <!--            });-->
+        <!--        </script>-->
+    </section>
+
+    <section class="cash-register-detail">
+        <div class="container cash-register-detail-list">
+            <a class="cash-register-detail-item">
+                <span class="cash-register-detail-item-info">
+                    <img src="images/time.svg" alt="" class="cash-register-detail-item-info-img">
+                    Transaction history
+                </span>
+                <img src="images/pagination-next-arrow.svg" alt="" class="cash-register-detail-item-img">
+            </a>
+
+            <a class="cash-register-detail-item">
+                <span class="cash-register-detail-item-info">
+                     <img src="images/info.svg" alt="" class="cash-register-detail-item-info-img">
+                    Faq
+                </span>
+                <img src="images/pagination-next-arrow.svg" alt="" class="cash-register-detail-item-img">
+            </a>
+        </div>
+    </section>
+
+
+</main>
+<footer class="footer footer-reset-margin">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-inner-menu">
+                <a href="" class="footer-inner-menu-link">
+                    <span class="footer-inner-menu-link-content ">
+                        <img src="images/footer/search.svg" alt="" class="footer-inner-menu-link-img">
+                    </span>
+                    Пошук
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                   <span class="footer-inner-menu-link-content ">
+                        <img src="images/footer/heart.svg" alt="" class="footer-inner-menu-link-img">
+                   </span>
+                    Избраное
+                </a>
+                <a href="" class="footer-inner-menu-link ">
+                   <span class="footer-inner-menu-link-content footer-inner-menu-link-active">
+                       <img src="images/footer/home.svg" alt="" class="footer-inner-menu-link-img">
+                   </span>
+                    Главная
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                    <span class="footer-inner-menu-link-content ">
+                        <img src="images/footer/cap.svg" alt="" class="footer-inner-menu-link-img">
+                    </span>
+                    Все лотереи
+                </a>
+                <a href="" class="footer-inner-menu-link">
+                    <span class="footer-inner-menu-link-content ">
+                    <img src="images/footer/burger.svg" alt="" class="footer-inner-menu-link-img">
+                    </span>
+                    Меню
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

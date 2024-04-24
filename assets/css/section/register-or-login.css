@@ -1,0 +1,360 @@
+.register-or-login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    color:  #D4D4D4;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.register-or-login-light-grey-bg {
+    background-color: #202020;
+}
+
+.register-or-login-info {
+    padding: 24px 0;
+    color: var(--Grey, #D4D4D4);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.register-or-login-dark-grey-bg {
+    background-color: #1E1E1E;
+
+}
+
+.register-or-login-select {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.register-or-login-select-item {
+    color: #939393;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 20px 20px 0 0;
+    background: #262626;
+    padding: 8px 32px;
+}
+
+
+.register-or-login-select-item-active {
+    color: var(--White, #FFF);
+    background: #141414;
+}
+
+.register-or-login-register-checkbox-inner{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-top: 24px;
+    margin-left: 30px;
+}
+
+
+
+
+.register-or-login-register-checkbox {
+    display: none;
+}
+
+.register-or-login-register-checkbox-inner .custom-checkbox {
+    position: absolute;
+    top: 35%;
+    left: -25px;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #939393;
+    border-radius: 5px;
+}
+
+.register-or-login-register-checkbox-inner input[type="checkbox"]:checked + .custom-checkbox {
+    background-color: #000;
+}
+
+.register-or-login-register-checkbox-inner .custom-checkbox::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #008535;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.register-or-login-register-checkbox-inner input[type="checkbox"]:checked + .custom-checkbox::after {
+    opacity: 1;
+}
+
+.register-or-login-register-checkbox-label {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+
+}
+
+.register-or-login-register-checkbox-label a {
+    text-decoration: none;
+    color: black;
+}
+
+.register-or-login-register-form{
+    margin-top: 24px;
+}
+.register-or-login-register-phone-number-inputs{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    gap: 16px;
+}
+
+.register-or-login-register-password{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.register-or-login-country-code-select{
+    display: flex;
+    padding: 7px 12px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 100px;
+    background: var(--White, #FFF);
+    border: none;
+    color:  #939393;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.register-or-login-numbers-input{
+    padding: 8px 12px;
+    border-radius: 100px;
+    background: var(--White, #FFF);
+    border: none;
+    color:  #939393;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+}
+
+.register-or-login-numbers-input::placeholder {
+    color: #999;
+}
+
+
+
+.register-or-login-label{
+    display: flex;
+    flex-direction: column;
+    color: #939393;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 3px;
+}
+
+.register-or-login-input-font{
+    color:  #939393;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.register-or-login-country-code-select-img{
+    width: 14px;
+}
+
+.register-or-login-password-label{
+
+}
+
+.register-or-login-password-input{
+    border: none;
+    color: #939393;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.register-or-login-password-input::placeholder{
+    color: #939393;
+}
+
+.register-or-login-register-password-container{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    background: var(--White, #FFF);
+    padding: 8px 12px;
+    gap: 8px;
+    flex: 1;
+    grid-template-columns: 1fr auto;
+}
+
+
+
+
+.register-or-login-password-img{
+    width: 24px;
+}
+
+
+
+
+
+.register-or-login-register-checkbox-label{
+    color:  #939393;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.register-or-login-register-checkbox-label a{
+    color:  #00B448;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.register-or-login-register-submit {
+    margin-top: 24px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 76px;
+    border-radius: 100px;
+    background: var(--Green, #008535);
+    border: none;
+    width: 100%;
+}
+
+
+.register-or-login-or-container {
+    margin-top: 24px;
+    position: relative;
+    text-align: center;
+}
+
+.register-or-login-or-line {
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 35px);
+    height: 1px;
+    background: #939393;
+}
+
+.register-or-login-or-text {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 24px;
+    color: #939393;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+.register-or-login-google {
+    margin-top: 24px;
+}
+
+.register-or-login-apple {
+    margin-top: 16px;
+}
+
+.register-or-login-oauth2 {
+    padding: 8px 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #939393;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 20px;
+    background: #262626;
+}
+
+.register-or-login-footer {
+    margin-top: 24px;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-or-login-footer-text {
+    color: var(--White, #FFF);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.register-or-login-footer-link {
+    color: #00B448;
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.register-or-login-label{
+
+}
+
+
+
+
+
+
+
+
+

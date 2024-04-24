@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="body body-dark-bg">
+
+<main class="main">
+    <section class="register-or-login">
+        <div class="container">
+            <div class="register-or-login-header">
+                <img src="images/internet.svg" alt="" class="register-or-login-header-dummy-content">
+                <h4 class="register-or-login-header-title">
+                    Регистрация
+                </h4>
+                <a href="#" class="register-or-login-header-link">
+                    <img src="images/close.svg" alt="" class="register-or-login-header-close">
+                </a>
+            </div>
+        </div>
+        <div class="container register-or-login-light-grey-bg">
+            <div class="register-or-login-info">
+                <p class="register-or-login-info-text">
+                    Создайте свой аккаунт с помощью телефона или почты
+                </p>
+            </div>
+        </div>
+        <div class="container register-or-login-dark-grey-bg">
+            <div class="register-or-login-select">
+                <a href="#" class="register-or-login-select-item register-or-login-select-item-active">
+                    Почта
+                </a>
+                <a href="#" class="register-or-login-select-item ">
+                    Телефон
+                </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="register-or-login-register-phone-number">
+                <form action="" class="register-or-login-register-form">
+                    <div class="register-or-login-register-password">
+                        <label for="register-email" class="register-or-login-password-label register-or-login-label">
+                            E-mail
+                        </label>
+                        <div class="register-or-login-register-password-container">
+                            <input  id="register-email" type="email" placeholder="Введите почту" class="register-or-login-password-input">
+                        </div>
+                    </div>
+                    <div class="register-or-login-register-password">
+                        <label for="register-password" class="register-or-login-password-label register-or-login-label">
+                            Пароль
+                        </label>
+                        <div class="register-or-login-register-password-container">
+                            <input  id="register-password" type="password" placeholder="Введите пароль" class="register-or-login-password-input">
+                            <img src="images/closed-eye.svg" onclick="togglePassword()" alt="" class="register-or-login-password-img">
+                        </div>
+                        <script>
+                            function togglePassword() {
+                                let passwordField = document.getElementById("register-password");
+                                let icon = document.querySelector(".register-or-login-password-img");
+
+                                if (passwordField.type === "password") {
+                                    passwordField.type = "text";
+                                    icon.src = "images/open-eye.svg";
+                                } else {
+                                    passwordField.type = "password";
+                                    icon.src = "images/closed-eye.svg";
+                                }
+                            }
+                        </script>
+                    </div>
+                    <div class="register-or-login-register-checkbox-inner">
+                        <input type="checkbox" class="register-or-login-input-fonts register-or-login-register-checkbox" id="terms-checkbox">
+                        <label for="terms-checkbox" class="custom-checkbox"></label>
+                        <label for="terms-checkbox" class="register-or-login-register-checkbox-label">Я ознакомился(ась) и соглашаюсь с <a href="#">Условиями обслуживания</a> и <a href="#">Политикой конфиденциальности</a>.</label>
+                    </div>
+                    <input type="submit" class="register-or-login-register-submit" value="Создать аккаунт">
+                </form>
+                <div class="register-or-login-or-container">
+                    <div class="register-or-login-or-line" style="left: 0;"></div>
+                    <span class="register-or-login-or-text">или</span>
+                    <div class="register-or-login-or-line" style="right: 0;"></div>
+                </div>
+                <a href="" class="register-or-login-oauth2 register-or-login-google">
+                    <img src="images/google-color.svg" alt="" class="register-or-login-img">
+                    Продолжить с Google
+                </a>
+                <a href="" class="register-or-login-oauth2 register-or-login-apple">
+                    <img src="images/apple-color.svg" alt="" class="register-or-login-img">
+                    Продолжить с Apple
+                </a>
+
+            </div>
+        </div>
+
+
+
+        <div class="container register-or-login-light-grey-bg">
+            <div class="register-or-login-footer">
+                <p class="register-or-login-footer-text">
+                    У меня уже есть аккаунт
+                </p>
+                <a href="" class="register-or-login-footer-link">
+                    Войти
+                    <img src="images/register-or-login-footer.svg" alt="" class="register-or-login-footer-link">
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+</main>
+
+</body>
+</html>

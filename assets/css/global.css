@@ -119,19 +119,6 @@ input:focus {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*base form*/
 
 .base-input-label{
@@ -142,6 +129,48 @@ input:focus {
     line-height: normal;
 }
 
+
+@media (min-width: 568px) {
+    .container{
+        max-width: 568px;
+    }
+
+    .body {
+        background-image: unset;
+        background-repeat: no-repeat;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        background-color: #16171D;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        padding: 0 24px;
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+     .container{
+         max-width: 952px;
+         padding: 0 32px;
+     }
+}
+
+@media (min-width: 1680px) {
+    .container{
+        max-width: 1608px;
+        padding: 0 124px;
+    }
+
+
+
+
+
+}
 
 
 

@@ -1,8 +1,9 @@
-.header{
-    background-color: #202020 ;
+.header {
+    background-color: #202020;
 }
 
-.header-inner{
+
+.header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,7 +11,7 @@
 }
 
 
-.header-content-unauthenticated-user{
+.header-content-unauthenticated-user {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +19,7 @@
 }
 
 
-.header-content-unauthenticated-user-register-link{
+.header-content-unauthenticated-user-register-link {
     color: var(--White);
     font-size: 15px;
     font-style: normal;
@@ -29,14 +30,14 @@
     background: var(--Green, #008535);
 }
 
-.header-content-unauthenticated-user-login-link-container{
-     padding: 8px;
+.header-content-unauthenticated-user-login-link-container {
+    padding: 8px;
     background-color: var(--Green);
     border-radius: 100px;
     display: block;
 }
 
-.header-content-authenticated-user{
+.header-content-authenticated-user {
     display: flex;
     align-items: center;
     border: 1px solid var(--Green);
@@ -44,11 +45,11 @@
     gap: 8px;
 }
 
-.header-content-authenticated-user-crypto-icon{
+.header-content-authenticated-user-crypto-icon {
     padding-left: 8px;
 }
 
-.header-content-authenticated-user-balance{
+.header-content-authenticated-user-balance {
     display: flex;
     align-items: center;
     gap: 3px;
@@ -58,13 +59,159 @@
     line-height: normal;
 }
 
-.header-content-authenticated-user-wallet-container{
+.header-content-authenticated-user-wallet-container {
     display: block;
     padding: 8px;
     background-color: var(--Green);
     border-radius: 100px 94px 94px 100px;
     box-sizing: content-box;
 }
+
+.header-logo-img-2 {
+    display: none;
+}
+
+.header-content-authenticated-user-crypto-icon-2 {
+    display: none;
+}
+
+.header-content-authenticated-user-wallet-container-text {
+    display: none;
+}
+
+.header-content-authenticated-user-balance-container {
+    display: none;
+}
+
+.header-content-unauthenticated-user-login-link-container-login-text{
+    display: none;
+}
+
+
+@media (min-width: 568px) {
+
+    .header-inner{
+        padding: 8px 0;
+
+    }
+    .header-logo-img {
+        display: none;
+    }
+
+    .header-logo-img-2 {
+        display: block;
+    }
+
+    .header {
+        background-color: #1f222E;
+    }
+
+    .header-content-unauthenticated-user-register-link {
+        color: var(--White);
+        font-size: 16px;
+        padding: 10px 16px;
+        border-radius: 20px;
+        background: #0862C4;
+        box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 0 rgba(0, 0, 0, 0.30);
+    }
+
+    .header-content-unauthenticated-user-login-link-container {
+        border-radius: 20px;
+        border: 1px solid #0862C4;
+        background: none;
+    }
+
+    .header-content-authenticated-user-crypto-icon-2 {
+        display: block;
+        padding-left: 12px;
+    }
+
+    .header-content-authenticated-user-crypto-icon {
+        display: none;
+    }
+
+    .header-content-authenticated-user {
+        border: none;
+        background: #16171D;
+    }
+
+    .header-content-authenticated-user-wallet-container {
+        padding: 10px 16px;
+        font-size: 16px;
+        color: #E7F2FE;
+        border-radius: 20px;
+        background: #0862C4;
+    }
+
+    .header-content-authenticated-user-wallet-container-text {
+        display: block;
+    }
+
+    .header-content-authenticated-user-wallet-container-img {
+        display: none;
+    }
+
+    .header-content-authenticated-user-balance{
+        display: none;
+    }
+
+    .header-content-authenticated-user-balance-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+   .header-content-authenticated-user-balance-container-title{
+       color: #A7AEBE;
+       font-size: 10px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 12px; /* 120% */
+   }
+
+   .header-content-authenticated-user-balance-container-value{
+       color: #FCCB36;
+       font-size: 12px;
+       font-style: normal;
+       font-weight: 400;
+       line-height: 16px;
+   }
+}
+
+@media (min-width: 768px) {
+    .header-inner{
+        padding: 16px 0;
+    }
+
+    .header-content-unauthenticated-user{
+        gap: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    
+}
+
+@media (min-width: 1680px) {
+    .header-content-unauthenticated-user-login-link-container{
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .header-content-unauthenticated-user-login-link-container-login-text{
+        color:  #E7F2FE;
+        display: block;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    }
+
+
+}
+
+
 
 
 

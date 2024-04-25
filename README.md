@@ -39,6 +39,12 @@ https://kirillnizhnik.github.io/GoodChance/assets/fail-verification.html - Ош�
 
 https://kirillnizhnik.github.io/GoodChance/assets/successful-verification.html - Успешная верификация
 
+https://kirillnizhnik.github.io/GoodChance/assets/register-phone.html - регистрация через телефон
+
+https://kirillnizhnik.github.io/GoodChance/assets/register-email.html - регистрация через почту
+
+https://kirillnizhnik.github.io/GoodChance/assets/login.html - вход
+
 
 Общее
 

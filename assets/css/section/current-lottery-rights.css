@@ -1,0 +1,44 @@
+.current-lottery-rights{
+    margin-top: 24px;
+    padding: 24px 0;
+    background-color: #1F222E;
+}
+
+
+
+.current-lottery-rights-title{
+    color: #E2E3E9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.current-lottery-rights-list{
+    margin-left: 30px;
+    margin-top: 16px;
+    color: #A7AEBE;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-type: disc;
+}
+
+.current-lottery-rights-list-item::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+}
+
+.current-lottery-rights-descr{
+    margin-top: 16px;
+    color: #E2E3E9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}

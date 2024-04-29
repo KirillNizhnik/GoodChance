@@ -6,40 +6,79 @@
     <title>Lottery</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body class="body">
-<header class="header">
-    <div class="container">
-        <div class="header-inner">
-            <a href="#" class="header-logo-link">
-                <img src="images/logo.svg" alt="logo" class="header-logo-img">
-            </a>
-            <!--            <div class="header-content-unauthenticated-user">-->
-            <!--                <a href="#" class="header-content-unauthenticated-user-register-link">-->
-            <!--                    Регистрация-->
-            <!--                </a>-->
-            <!--                <a href="#" class="header-content-unauthenticated-user-login-link">-->
-            <!--                        <span class="header-content-unauthenticated-user-login-link-container">-->
-            <!--                            <img src="images/header-login.svg" alt="login" class="header-content-unauthenticated-user-login-link-container-img">-->
-            <!--                        </span>-->
-            <!--                </a>-->
-            <!--            </div>-->
-            <div class="header-content-authenticated-user">
-                <img src="images/header-btc-icon.svg" alt="btc-icon" class="header-content-authenticated-user-crypto-icon">
-                <p class="header-content-authenticated-user-balance">999.999.99<span class="header-content-authenticated-user-balance-icon">$</span></p>
-                <a href="" class="header-content-authenticated-user-wallet-link">
-                                <span class="header-content-authenticated-user-wallet-container">
-                                    <img src="images/wallet-icon.svg" alt="wallet" class="header-content-authenticated-user-wallet-container-img">
-                                </span>
+
+<main class="main">
+    <section class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="header-logo-link">
+                    <img src="images/logo-img.svg" alt="" class="header-logo-img-2">
+                    <img src="images/logo-img-mobile.svg" alt="" class="header-logo-img-mobile-2">
+
+
                 </a>
+                <!--                <div class="header-content-unauthenticated-user">-->
+                <!--                    <a href="#" class="header-content-unauthenticated-user-register-link">-->
+                <!--                        Registration-->
+                <!--                    </a>-->
+                <!--                    <a href="#" class="header-content-unauthenticated-user-login-link">-->
+                <!--                        <div class="header-content-unauthenticated-user-login-link-container">-->
+                <!--                            <img src="images/login.svg" alt="login"-->
+                <!--                                 class="header-content-unauthenticated-user-login-link-container-img">-->
+                <!--                            <span class="header-content-unauthenticated-user-login-link-container-login-text">-->
+                <!--                                                Login-->
+                <!--                                            </span>-->
+                <!--                        </div>-->
+                <!--                    </a>-->
+                <!--                </div>-->
+                <div class="header-content-authenticated-user">
+                    <img src="images/header-btc-icon-2.svg" alt="btc-icon"
+                         class="header-content-authenticated-user-crypto-icon-2">
+                    <div class="header-content-authenticated-user-balance-container">
+                                                    <span class="header-content-authenticated-user-balance-container-title">
+                                                        My balance:
+                                                    </span>
+                        <span class="header-content-authenticated-user-balance-container-value">
+                                                        <span class="header-content-authenticated-user-balance-container-value-currency">
+                                                            $
+                                                        </span>
+                                                        <span class="header-content-authenticated-user-balance-container-value-balance">
+                                                            87 654 321.00
+                                                        </span>
+                                        </span>
+                    </div>
+                    <a href="" class="header-content-authenticated-user-wallet-link">
+                                                <span class="header-content-authenticated-user-wallet-container">
+                                                    <img src="images/cashier.svg" alt="wallet"
+                                                         class="header-content-authenticated-user-wallet-container-img">
+                                                    <span class="header-content-authenticated-user-wallet-container-text">
+                                                        Deposit
+                                                    </span>
+                                                </span>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</header>
-<main class="main">
+    </section>
+    <section class="current-lottery-back">
+        <div class="container">
+            <div class="current-lottery-back-inner">
+                <a href="#" class="current-lottery-back-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.82843 11.9851L15.1924 18.3491C15.5829 18.7396 15.5829 19.3728 15.1924 19.7633C14.8019 20.1538 14.1687 20.1538 13.7782 19.7633L6 11.9851L13.7782 4.20696C14.1687 3.81643 14.8019 3.81643 15.1924 4.20696C15.5829 4.59748 15.5829 5.23064 15.1924 5.62117L8.82843 11.9851Z"
+                              fill="#A7AEBE"/>
+                    </svg>
+                </a>
+                Первая лотерея
+            </div>
+        </div>
+    </section>
     <section class="current-lottery">
         <div class="container">
             <div class="current-lottery-inner">
@@ -119,60 +158,155 @@
         </div>
     </section>
 
-    <section class="buy-tickets">
+
+    <section class="current-lottery-rights">
         <div class="container">
-            <div class="buy-tickets-inner">
-                <a href="#" class="buy-tickets-inner-link">
-                    Купить билеты
-                </a>
-<!--                <span class="buy-tickets-stop">-->
-<!--                    Билеты раскуплены, скоро розыгрыш-->
-<!--                </span>-->
-                <p class="buy-tickets-inner-descr">
-                    Авторозыгрыш лотереи произойдет через 10 минут, после продажи последнего билета!
+            <div class="current-lottery-rights-inner">
+                <h4 class="current-lottery-rights-title">
+                    Правила
+                </h4>
+                <ul class="current-lottery-rights-list">
+                    <li class="current-lottery-rights-list-item">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </li>
+                    <li class="current-lottery-rights-list-item">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </li>
+                    <li class="current-lottery-rights-list-item">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </li>
+                    <li class="current-lottery-rights-list-item">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </li>
+                    <li class="current-lottery-rights-list-item">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    </li>
+                </ul>
+                <p class="current-lottery-rights-descr">
+                    Все имеющиеся на официальном сайте и его зеркалах эмуляторы можно условно разделить на несколько
+                    типов:
                 </p>
             </div>
         </div>
     </section>
+    <section class="useful-links">
+        <div class="container">
+            <div class="useful-links-list">
+                <a href="" class="useful-links-list-link">
+                    Балы
+                </a>
+                <a href="" class="useful-links-list-link">
+                    Программа лоя льности
+                </a>
+                <a href="" class="useful-links-list-link">
+                    Правила
+                </a>
+                <a href="" class="useful-links-list-link">
+                    О клубе
+                </a>
+                <a href="" class="useful-links-list-link">
+                    FAQ
+                </a>
+                <a href="" class="useful-links-list-link">
+                    Карточные игры
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="payment-options">
+        <div class="container">
+            <div class="payment-options-list-1">
+                <img src="images/pay/mono.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/privat.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/bitcoin.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/ethereum.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/igrosoft.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/netent.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/egt.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/evolution.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/21+.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/norton.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/dmca.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/bitcoin.svg" alt="" class="payment-options-list-1-item">
+                <img src="images/pay/ethereum.svg" alt="" class="payment-options-list-1-item">
 
-
-
+            </div>
+            <img src="images/logo-img.svg" alt="" class="payment-options-logo-2">
+            <p class="payment-options-rights-2">
+                Игровой интернет клуб © 2022.
+            </p>
+        </div>
+    </section>
 
 
 </main>
 <footer class="footer">
-    <div class="container">
+    <div class="container container-vertical-menu">
         <div class="footer-inner">
-            <div class="footer-inner-menu">
-                <a href="" class="footer-inner-menu-link">
-                    <span class="footer-inner-menu-link-content ">
-                        <img src="images/footer/search.svg" alt="" class="footer-inner-menu-link-img">
+            <div class="footer-inner-menu-1">
+                <a href="#" class="footer-inner-menu-link-1 footer-inner-menu-link-1-lang">
+                    <span class="footer-inner-menu-link-content-1">
+                       <img src="images/flag.svg" alt="" class="footer-inner-menu-link-content-svg-1">
                     </span>
-                    Пошук
+                    Eng
                 </a>
-                <a href="" class="footer-inner-menu-link">
-                   <span class="footer-inner-menu-link-content ">
-                        <img src="images/footer/heart.svg" alt="" class="footer-inner-menu-link-img">
-                   </span>
-                    Избраное
-                </a>
-                <a href="" class="footer-inner-menu-link ">
-                   <span class="footer-inner-menu-link-content footer-inner-menu-link-active">
-                       <img src="images/footer/home.svg" alt="" class="footer-inner-menu-link-img">
-                   </span>
-                    Главная
-                </a>
-                <a href="" class="footer-inner-menu-link">
-                    <span class="footer-inner-menu-link-content ">
-                        <img src="images/footer/cap.svg" alt="" class="footer-inner-menu-link-img">
+                <a href="#" class="footer-inner-menu-link-1">
+                    <span class="footer-inner-menu-link-content-1">
+                        <svg class="footer-inner-menu-link-content-svg-1" xmlns="http://www.w3.org/2000/svg" width="25"
+                             height="24" viewBox="0 0 25 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M17.5 12V3.93333C17.5 3.41787 17.0821 3 16.5667 3H4.43333C3.91787 3 3.5 3.41787 3.5 3.93333V17L6.5 13H16.5C17.0155 13 17.5 12.5155 17.5 12ZM6.12017 6H14.8798C15.2223 6 15.5 5.77614 15.5 5.5C15.5 5.22386 15.2223 5 14.8798 5H6.12017C5.77766 5 5.5 5.22386 5.5 5.5C5.5 5.77614 5.77766 6 6.12017 6ZM13.0039 9H5.99614C5.72213 9 5.5 8.77614 5.5 8.5C5.5 8.22386 5.72213 8 5.99614 8H13.0039C13.2779 8 13.5 8.22386 13.5 8.5C13.5 8.77614 13.2779 9 13.0039 9ZM5.8721 11H11.1279C11.3334 11 11.5 10.7761 11.5 10.5C11.5 10.2239 11.3334 10 11.1279 10H5.8721C5.6666 10 5.5 10.2239 5.5 10.5C5.5 10.7761 5.6666 11 5.8721 11ZM19.5 7H20.625C21.1082 7 21.5 7.51675 21.5 8V21L18 17H8.375C7.89175 17 7.5 16.1082 7.5 15.625V15H18.5C19.0523 15 19.5 14.5523 19.5 14V7Z"
+                                  fill="#A7AEBE"/>
+                        </svg>
                     </span>
-                    Все лотереи
+                    Help
                 </a>
-                <a href="" class="footer-inner-menu-link">
-                    <span class="footer-inner-menu-link-content ">
-                    <img src="images/footer/burger.svg" alt="" class="footer-inner-menu-link-img">
+                <a href="#" class="footer-inner-menu-link-1">
+                    <span class="footer-inner-menu-link-content-1">
+                       <svg class="footer-inner-menu-link-content-svg-1" xmlns="http://www.w3.org/2000/svg" width="25"
+                            height="24" viewBox="0 0 25 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M2.60074 11.9998C1.82292 12.7777 1.82999 14.0434 2.60781 14.8212L4.02026 16.2372C5.19226 15.0709 7.08779 15.0727 8.25759 16.2425C9.42857 17.4135 9.42916 19.3116 8.25936 20.4834L9.6718 21.8993C10.4496 22.6772 11.7224 22.6772 12.5002 21.8993L22.3997 11.9998C23.1775 11.222 23.1775 9.94924 22.3997 9.17142L20.9855 7.75721C19.8139 8.92878 17.9144 8.92878 16.7429 7.75721C15.5713 6.58564 15.5713 4.68614 16.7429 3.51457L15.3287 2.10035C14.5508 1.32254 13.278 1.32254 12.5002 2.10035L2.60074 11.9998ZM5.07561 12.3534C4.88035 12.5487 4.88035 12.8652 5.07561 13.0605C5.27087 13.2558 5.58746 13.2558 5.78272 13.0605L13.5609 5.28233C13.7562 5.08707 13.7562 4.77049 13.5609 4.57523C13.3656 4.37997 13.049 4.37997 12.8538 4.57523L5.07561 12.3534ZM11.4396 19.4245C11.2443 19.2292 11.2443 18.9126 11.4396 18.7174L19.2177 10.9392C19.413 10.7439 19.7296 10.7439 19.9249 10.9392C20.1201 11.1345 20.1201 11.451 19.9249 11.6463L12.1467 19.4245C11.9514 19.6197 11.6348 19.6197 11.4396 19.4245ZM14.3905 11.3377L14.379 9.86278C14.3755 9.41445 13.8577 9.1435 13.5045 9.40387L12.34 10.2622L10.9328 9.75974C10.5056 9.60656 10.1071 10.0056 10.2602 10.4324L10.7626 11.8396L9.90432 13.004C9.64392 13.3573 9.91483 13.8751 10.3631 13.8786L11.8381 13.8901L12.7149 15.1127C12.981 15.484 13.5469 15.4054 13.6713 14.9803L14.0805 13.5802L15.4807 13.171C15.9032 13.0471 15.9865 12.4822 15.6131 12.2145L14.3905 11.3377Z"
+                                  fill="#A7AEBE"/>
+                        </svg>
                     </span>
-                    Меню
+                    Game
+                </a>
+                <a href="#" class="footer-inner-menu-link-1">
+                    <span class="footer-inner-menu-link-content-1">
+                        <svg class="footer-inner-menu-link-content-svg-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                             height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                  d="M3 11.8282C3 11.2977 3.21071 10.789 3.58579 10.414L10.5858 3.41391C11.3668 2.63286 12.6332 2.63286 13.4142 3.41391L20.4142 10.414C20.7893 10.789 21 11.2977 21 11.8282V19.9998C21 20.552 20.5523 20.9998 20 20.9998H14C13.4477 20.9998 13 20.552 13 19.9998V14.9998H11V19.9998C11 20.552 10.5523 20.9998 10 20.9998H4C3.44772 20.9998 3 20.552 3 19.9998V11.8282ZM12 4.82812L5 11.8282V18.9998H9V13.9997C9 13.4475 9.44772 12.9997 10 12.9997H14C14.5523 12.9997 15 13.4475 15 13.9997V18.9998H19V11.8282L12 4.82812Z"
+                                  fill="white"/>
+                        </svg>
+                    </span>
+                    Home
+                </a>
+                <a href="#" class="footer-inner-menu-link-1">
+                    <span class="footer-inner-menu-link-content-1">
+                        <svg class="footer-inner-menu-link-content-svg-1" xmlns="http://www.w3.org/2000/svg" width="25"
+                             height="24" viewBox="0 0 25 24" fill="none">
+                             <path fill-rule="evenodd" clip-rule="evenodd"
+                                   d="M20.4707 6.38788H19.1362C19.3122 6.1093 19.4284 5.79659 19.4615 5.46588C19.5673 4.40896 19.0107 3.4615 18.063 3.04144C17.192 2.65533 16.2131 2.81317 15.5083 3.45247L13.8232 4.97965C13.495 4.62072 13.0232 4.39514 12.4997 4.39514C11.9752 4.39514 11.5026 4.62144 11.1744 4.98148L9.48716 3.4523C8.78115 2.81299 7.80268 2.65576 6.93203 3.04166C5.98464 3.46175 5.42791 4.40953 5.53404 5.46642C5.56724 5.79688 5.68332 6.10944 5.85931 6.38788H4.52865C3.86829 6.38788 3.33301 6.9232 3.33301 7.58352V9.37699C3.33301 9.70714 3.60067 9.97483 3.93085 9.97483H21.0685C21.3986 9.97483 21.6663 9.70717 21.6663 9.37699V7.58352C21.6663 6.9232 21.131 6.38788 20.4707 6.38788ZM10.7062 6.18861V6.38788H7.89377C7.1507 6.38788 6.5659 5.69515 6.75149 4.9215C6.83324 4.5808 7.07916 4.29036 7.39723 4.14334C7.83401 3.94146 8.31784 4.00627 8.68468 4.33831L10.7067 6.17099L10.7064 6.17844L10.7062 6.18861ZM18.2751 5.30715C18.2306 5.92851 17.6693 6.38795 17.0464 6.38795H14.2931V6.18868C14.2931 6.18484 14.293 6.18101 14.2929 6.17719C14.2928 6.17399 14.2927 6.1708 14.2926 6.16759L16.2833 4.36323C16.5896 4.08562 17.0182 3.95603 17.4143 4.0742C17.9829 4.24378 18.3167 4.72725 18.2751 5.30715ZM4.52881 11.1709V19.939C4.52881 20.5994 5.06409 21.1347 5.72445 21.1347H11.7358V11.1709H4.52881ZM13.2637 21.1347V11.1709H20.4709V19.939C20.4709 20.5994 19.9356 21.1347 19.2753 21.1347H13.2637Z"
+                                   fill="#A7AEBE"/>
+                        </svg>
+                    </span>
+                    Bonuses
+                    <span class="footer-inner-menu-link-message-1">2</span>
+                </a>
+                <a href="#" class="footer-inner-menu-link-1">
+                    <svg class="footer-inner-menu-link-content-svg-1" xmlns="http://www.w3.org/2000/svg" width="24"
+                         height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M1 7C1 6.44772 1.44772 6 2 6H22C22.5523 6 23 6.44772 23 7C23 7.55228 22.5523 8 22 8H2C1.44772 8 1 7.55228 1 7Z"
+                              fill="#A7AEBE"/>
+                        <path d="M1 12C1 11.4477 1.44772 11 2 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13H2C1.44772 13 1 12.5523 1 12Z"
+                              fill="#A7AEBE"/>
+                        <path d="M2 16C1.44772 16 1 16.4477 1 17C1 17.5523 1.44772 18 2 18H22C22.5523 18 23 17.5523 23 17C23 16.4477 22.5523 16 22 16H2Z"
+                              fill="#A7AEBE"/>
+                    </svg>
+                    Menu
+                    <span class="footer-inner-menu-link-message-1">2</span>
                 </a>
             </div>
         </div>

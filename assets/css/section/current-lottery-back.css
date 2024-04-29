@@ -1,0 +1,21 @@
+.current-lottery-back{
+    margin-top: 24px;
+}
+
+
+.current-lottery-back-inner{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color:#EEF1F6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+.current-lottery-back-container{
+    padding: 4px;
+    border-radius: 18px;
+    background: #2B2E3B;
+}

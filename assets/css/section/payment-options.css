@@ -30,3 +30,62 @@
     font-weight: 400;
     line-height: normal;
 }
+
+
+
+
+.payment-options-logo-2{
+    display: block;
+    margin: 24px auto 0 auto;
+    align-items: center;
+}
+
+
+
+.payment-options-rights-2{
+    display: block;
+    margin-top: 24px;
+    color: #A7AEBE;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+
+
+@media (min-width: 568px) {
+
+    .payment-options-logo{
+        display: none;
+    }
+
+    .payment-options-logo-2{
+        display: block;
+        margin: 24px auto 0 auto;
+        align-items: center;
+    }
+
+
+
+    .payment-options-rights-2{
+        display: block;
+        margin-top: 24px;
+        color: #A7AEBE;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 12px;
+    }
+
+    
+}
+
+@media (min-width: 1024px) {
+    .payment-options{
+        margin-bottom: 24px;
+    }
+    
+}

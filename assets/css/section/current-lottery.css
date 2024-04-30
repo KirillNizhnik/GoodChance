@@ -183,6 +183,7 @@
     line-height: 16px; /* 133.333% */
 }
 .buy-tickets{
+    cursor: pointer;
     width: fit-content;
     margin: 0 auto;
     color: #E7F2FE;
@@ -200,6 +201,8 @@
     box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 0 rgba(0, 0, 0, 0.30);
 }
 
+
+
 .current-lottery-info-1{
     display: none;
 }
@@ -207,6 +210,27 @@
     object-fit: cover;
     height: 184px;
 }
+
+
+.current-lottery-tickets-not-found{
+    color: #2B2E3B;
+    font-family: Arial, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    display: flex;
+    padding: 8px  16px;
+    justify-content: center;
+    align-items: center;
+    border-radius:  20px;
+    opacity: 0.3;
+    background:  #6C7993;
+    width: fit-content;
+    margin: 16px auto 0 auto;
+
+ }
 
 
 @media (min-width: 568px) {
@@ -320,6 +344,12 @@
     .current-lottery-inner-prize-value-cup{
         width: 24px;
         height: 24px;
+    }
+
+
+    .current-lottery-tickets-not-found{
+        margin: 24px auto 0 auto;
+
     }
 
 

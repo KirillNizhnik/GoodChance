@@ -54,7 +54,7 @@
     border-radius:  4px;
     background: #2B2E3B;
     color: #E2E3E9;
-    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 0 rgba(0, 0, 0, 0.30);
     display: flex;
     padding:  16px;
     flex-direction: column;
@@ -148,7 +148,7 @@
     padding: 16px;
     border-radius: 4px;
     background: #2B2E3B;
-    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 0 rgba(0, 0, 0, 0.30);
 }
 
 .current-lottery-progress-bar-inner-info-text{
@@ -191,7 +191,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    letter-spacing: 0;
     display: flex;
     padding: 8px 16px;
     justify-content: center;
@@ -231,6 +231,113 @@
     margin: 16px auto 0 auto;
 
  }
+
+.current-lottery-your-winner{
+    margin-top: 24px;
+    border-radius:  4px;
+    background: #2B2E3B;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 0 rgba(0, 0, 0, 0.30);
+    padding:  16px;
+
+}
+
+.current-lottery-your-winner-title{
+    display: block;
+    text-align: center;
+    color: #E2E3E9;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.current-lottery-your-winner-container{
+    margin-top: 16px;
+    display: flex ;
+    justify-content: center;
+    gap: 2px;
+}
+
+.current-lottery-you-won-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #FCCB36;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+}
+
+.current-lottery-you-won-notification{
+    display: block;
+    margin-top: 16px;
+    color: #E2E3E9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.current-lottery-show-all-link{
+    width: fit-content;
+    padding: 8px 16px;
+    color: #E7F2FE;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    border-radius:20px;
+    border: 1px solid  #0862C4;
+    margin: 24px auto 0 auto;
+    display: block;
+}
+
+
+
+.all-participants{
+    border-radius: 4px;
+    background-color: #1F222E;
+    box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.30);
+    margin-top: 16px;
+    padding: 24px;
+}
+
+.all-participants-table{
+    width: 100%;
+    max-width: 100%;
+}
+
+.all-participants-title{
+    color: #A7AEBE;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 133.333% */
+}
+
+.all-participants-table-item-left{
+    text-align: left;
+}
+
+.all-participants-table-item-center{
+    text-align: center;
+}
+
+
+.all-participants-table-item-right{
+    text-align: right;
+}
+
+
+
+
 
 
 @media (min-width: 568px) {
@@ -279,6 +386,10 @@
 
     .buy-tickets{
         margin-top: 16px;
+    }
+
+    .current-lottery-your-winner{
+        margin: 0;
     }
 }
 
@@ -352,6 +463,34 @@
 
     }
 
+    .current-lottery-your-winner-title{
+        font-size: 18px;
+    }
+
+   .current-lottery-you-won-container{
+       font-size: 16px;
+       gap: 2px;
+   }
+
+   .current-lottery-your-winner-container{
+       gap: 8px;
+       align-items: center;
+   }
+
+
+
+   .current-lottery-your-winner-container-svg{
+       width: 50px;
+       height: 50px;
+   }
+
+   .current-lottery-you-won-notification{
+       font-size: 16px;
+   }
+
+   .current-lottery-your-winner{
+       padding: 24px;
+   }
 
 
 }

@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verification</title>
+    <title>Fail Verification</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 
 </head>
 <body class="body body-dark-bg">
@@ -16,7 +16,7 @@
     <div class="container">
         <div class="header-inner">
             <a href="#" class="header-logo-link">
-                <img src="images/logo.svg" alt="logo" class="header-logo-img">
+                <img src="../images/logo.svg" alt="logo" class="header-logo-img">
             </a>
             <!--            <div class="header-content-unauthenticated-user">-->
             <!--                <a href="#" class="header-content-unauthenticated-user-register-link">-->
@@ -29,13 +29,13 @@
             <!--                </a>-->
             <!--            </div>-->
             <div class="header-content-authenticated-user">
-                <img src="images/header-btc-icon.svg" alt="btc-icon"
+                <img src="../images/header-btc-icon.svg" alt="btc-icon"
                      class="header-content-authenticated-user-crypto-icon">
                 <p class="header-content-authenticated-user-balance">999.999.99<span
                         class="header-content-authenticated-user-balance-icon">$</span></p>
                 <a href="" class="header-content-authenticated-user-wallet-link">
                                 <span class="header-content-authenticated-user-wallet-container">
-                                    <img src="images/wallet-icon.svg" alt="wallet"
+                                    <img src="../images/wallet-icon.svg" alt="wallet"
                                          class="header-content-authenticated-user-wallet-container-img">
                                 </span>
                 </a>
@@ -48,7 +48,7 @@
         <div class="container">
             <div class="breadcrumbs-inner">
                 <a href="" class="breadcrumbs-link-back">
-                    <img src="images/pagination-back-arrow.svg" alt="" class="breadcrumbs-link-back_img">
+                    <img src="../images/pagination-back-arrow.svg" alt="" class="breadcrumbs-link-back_img">
                 </a>
                 <div class="breadcrumbs-title-container">
                     <h4 class="breadcrumbs-title">
@@ -65,7 +65,7 @@
 
                 <div class="verification-user-phone">
                     <p class="verification-user-resend-notification verification-user-text">
-                            На ваш номер телефона
+                        На ваш номер телефона
                         <span>+380638889933</span>
                         отправлен sms с кодом. Введите его в поле и нажмите подтвердить
                     </p>
@@ -77,7 +77,7 @@
                         <label class="verification-user-label" for="verification-user-phone-message">
                             Код подтверждения телефона
                             <input id="verification-user-phone-message" type="text" class="verification-form-input" placeholder="Введите код из SMS">
-                            <span class="verification-user-error"></span>
+                            <span class="verification-user-error">Неверный код</span>
                         </label>
                         <input type="submit" value="Подтвердить" class="verification-user-submit">
                     </form>
@@ -88,18 +88,20 @@
                         На вашу электронную почту <span>cosmos@gmail.com</span>
                         отправлено письмо с кодом. Введите его в поле и нажмите подтвердить
                     </p>
-                    <p class="verification-user-resend-notification-2 verification-user-text">
-                        Письмо не пришло?
-                        <a href="#" class="verification-user-resend-notification-2-link">Отправить повторно</a>
+
+                    <p class="verification-user-text verification-user-successful">
+                        <img src="../images/verification-successful.svg" alt="" class="verification-user-successful-img">
+                        Ваш e-mail успешно подтвержден!
                     </p>
-                    <form action="#" class="verification-form">
-                        <label class="verification-user-label" for="verification-user-email-message">
-                            Код подтверждения телефона
-                            <input id="verification-user-email-message" type="text" class="verification-form-input" placeholder="Введите код из письма">
-                            <span class="verification-user-error"></span>
-                        </label>
-                        <input type="submit" value="Подтвердить" class="verification-user-submit">
-                    </form>
+                    
+<!--                    <form action="#" class="verification-form">-->
+<!--                        <label class="verification-user-label" for="verification-user-email-message">-->
+<!--                            Код подтверждения телефона-->
+<!--                            <input id="verification-user-email-message" type="text" class="verification-form-input" placeholder="Введите код из письма">-->
+<!--                            <span class="verification-user-error"></span>-->
+<!--                        </label>-->
+<!--                        <input type="submit" value="Подтвердить" class="verification-user-submit">-->
+<!--                    </form>-->
                 </div>
                 <input type="submit" value="Сохранить изменения" class="verification-user-save">
             </div>
@@ -115,31 +117,31 @@
             <div class="footer-inner-menu">
                 <a href="" class="footer-inner-menu-link">
                     <span class="footer-inner-menu-link-content ">
-                        <img src="images/footer/search.svg" alt="" class="footer-inner-menu-link-img">
+                        <img src="../images/footer/search.svg" alt="" class="footer-inner-menu-link-img">
                     </span>
                     Пошук
                 </a>
                 <a href="" class="footer-inner-menu-link">
                    <span class="footer-inner-menu-link-content ">
-                        <img src="images/footer/heart.svg" alt="" class="footer-inner-menu-link-img">
+                        <img src="../images/footer/heart.svg" alt="" class="footer-inner-menu-link-img">
                    </span>
                     Избраное
                 </a>
                 <a href="" class="footer-inner-menu-link ">
                    <span class="footer-inner-menu-link-content footer-inner-menu-link-active">
-                       <img src="images/footer/home.svg" alt="" class="footer-inner-menu-link-img">
+                       <img src="../images/footer/home.svg" alt="" class="footer-inner-menu-link-img">
                    </span>
                     Главная
                 </a>
                 <a href="" class="footer-inner-menu-link">
                     <span class="footer-inner-menu-link-content ">
-                        <img src="images/footer/cap.svg" alt="" class="footer-inner-menu-link-img">
+                        <img src="../images/footer/cap.svg" alt="" class="footer-inner-menu-link-img">
                     </span>
                     Все лотереи
                 </a>
                 <a href="" class="footer-inner-menu-link">
                     <span class="footer-inner-menu-link-content ">
-                    <img src="images/footer/burger.svg" alt="" class="footer-inner-menu-link-img">
+                    <img src="../images/footer/burger.svg" alt="" class="footer-inner-menu-link-img">
                     </span>
                     Меню
                 </a>

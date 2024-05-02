@@ -1,0 +1,119 @@
+.subscribe-to-notification{
+    position: fixed;
+    width: 304px;
+    padding: 32px 16px;
+    z-index: 101;
+    border-radius: 4px;
+    background: #1F222E;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-to-notification-close{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.subscribe-to-notification-title{
+    color: #E2E3E9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    margin-top: 24px;
+}
+
+.subscribe-to-notification-descr{
+    margin-top: 16px;
+    color: #A7AEBE;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.subscribe-button-container{
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 16px;
+}
+.subscribe-to-notification-disable{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap:  0;
+    flex: 1 0 0;
+    border-radius:  20px;
+    border: 1px solid  #0862C4;
+    background-color: transparent;
+    color:#E7F2FE;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.subscribe-to-notification-disable:hover{
+    border: 1px solid  #3B95F7;
+}
+
+
+.subscribe-to-notification-disable:active{
+    border: 1px solid #043162;
+}
+
+.subscribe-to-notification-enable{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap:  0;
+    flex: 1 0 0;
+    border-radius:  20px;
+    background:  #0862C4;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+    color:#E7F2FE;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.subscribe-to-notification-enable:hover{
+    background: #3B95F7;
+}
+
+.subscribe-to-notification-enable:active{
+    background:  #043162;
+
+}
+
+@media (min-width: 375px) {
+    .subscribe-to-notification{
+        width: 359px;
+    }
+}
+
+@media (min-width: 568px) {
+    .subscribe-to-notification{
+        width: 480px;
+    }
+}

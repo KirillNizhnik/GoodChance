@@ -1,0 +1,99 @@
+.bet-par-popup{
+    position: fixed;
+    width: 100%;
+    border-radius: 8px;
+    background: #1F222E;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+    padding: 32px 16px;
+    z-index: 100;
+}
+
+.bet-par-popup-close{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+}
+
+
+
+.bet-par-popup-title{
+    color: #E2E3E9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+}
+
+.bet-par-popup-list{
+    margin-top: 24px;
+}
+
+
+.bet-par-popup-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    color: #E7F2FE;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    border-radius: 4px;
+    gap: 8px;
+}
+
+.bet-par-popup-item:hover{
+    background: #3B95F7;
+}
+
+.bet-par-popup-item:active{
+    background: #16171D;
+}
+
+.bet-par-popup-item-active{
+    background: #0862C4;
+    padding: 12px;
+}
+
+.bet-par-popup-item-active:hover{
+    background: #064993;
+}
+
+.bet-par-popup-item-active:active{
+    background: #064993;
+}
+
+.bet-par-popup-rights{
+    display: flex;
+    gap: 8px;
+}
+
+.bet-par-popup-item-active path{
+    fill: #43C65B;
+}
+
+@media (min-width: 375px) {
+    .bet-par-popup{
+        width: 359px;
+    }
+}
+
+@media (min-width: 568px) {
+    .bet-par-popup{
+        width: 480px;
+    }
+}
+
+@media (min-width: 768px) {
+    .bet-par-popup{
+        padding: 32px 24px;
+    }
+}
+

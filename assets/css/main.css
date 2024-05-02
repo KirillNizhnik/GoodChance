@@ -1,5 +1,11 @@
 @import "normalize.css";
 @import "global.css";
+@import "modal/sidebar.css";
+@import "modal/bet-par-popup.css";
+@import "modal/language-popup.css";
+@import "modal/subscribe-to-notification.css";
+@import "modal/change-of-rules.css";
+
 @import "section/header.css";
 @import "section/home-slider.css";
 @import "section/home-list-of-lotteries.css";

@@ -299,18 +299,22 @@
 }
 
 
-
 .all-participants{
-    border-radius: 4px;
-    background-color: #1F222E;
-    box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.30);
+    display: none;
     margin-top: 16px;
     padding: 24px;
+    border-radius: 4px;
+    background: #1F222E;
+    box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.30);
 }
 
-.all-participants-table{
-    width: 100%;
-    max-width: 100%;
+
+.all-participants-1{
+    display: none;
+    padding: 24px;
+    border-radius: 4px;
+    background: #1F222E;
+    box-shadow: 0 6px 10px 4px rgba(0, 0, 0, 0.15), 0 2px 3px 0 rgba(0, 0, 0, 0.30);
 }
 
 .all-participants-title{
@@ -319,25 +323,127 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 24px; /* 133.333% */
+    line-height: 24px;
 }
 
-.all-participants-table-item-left{
+.all-participants-table-container{
+    margin-top: 16px;
+}
+
+.all-participants-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 16px;
+}
+
+
+
+.all-participants-left-column{
     text-align: left;
 }
 
-.all-participants-table-item-center{
+.all-participants-center-column{
     text-align: center;
 }
 
-
-.all-participants-table-item-right{
+.all-participants-right-column{
     text-align: right;
 }
 
+.all-participants-head-text{
+    color: #A7AEBE;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
 
+.all-participants-item-bg-grey{
+    background: #2B2E3B;
+}
 
+.all-participants-item-name{
+    display: flex;
+    gap: 3px;
+    color: #E2E3E9;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+.all-participants-item-count{
+    color: #FCCB36;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
 
+.all-participants-head-shans{
+    color:#A7AEBE;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.all-participants-blur{
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(31, 34, 46, 0.00) 0%, #1F222E 100%);
+    height: 80px;
+    bottom: 0;
+}
+
+.all-participants-open-all{
+    margin-top: 24px;
+    cursor: pointer;
+    display: flex;
+    padding:12px  16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: #E7F2FE;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.all-participants-table-container{
+    position: relative;
+}
+
+.all-participants-1{
+    display: none;
+}
+
+.unnlogged-none-1{
+    display: none;
+}
+
+.current-lottery-your-looser{
+    border-radius:  4px;
+    padding:  16px;
+    background: #2B2E3B;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.15), 0 1px 3px 0 rgba(0, 0, 0, 0.30);
+}
+
+.current-lottery-your-looser-text{
+    color: #E2E3E9;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+}
 
 
 @media (min-width: 568px) {
@@ -391,10 +497,24 @@
     .current-lottery-your-winner{
         margin: 0;
     }
+
+    .all-participants{
+        display: block;
+    }
+
+
 }
 
 
 @media (min-width: 768px) {
+
+    .all-participants{
+        display: none;
+    }
+
+    .all-participants-1{
+        display: block;
+    }
 
     .current-lottery-svg-bilet{
         width: 24px;
@@ -492,6 +612,22 @@
        padding: 24px;
    }
 
+    .unnlogged-none{
+        display: none;
+    }
+
+    .current-lottery-your-winner-margin{
+        margin-top: 16px;
+    }
+
+    .unnlogged-none-1{
+        display: block;
+    }
+
+
+    .current-lottery-your-looser{
+        padding:  24px;
+    }
 
 }
 
@@ -551,6 +687,10 @@
 
     .current-lottery-inner-actuality{
         justify-content: flex-start;
+    }
+
+    .current-lottery-your-winner-margin{
+        margin-top: 32px;
     }
 }
 

@@ -1,5 +1,6 @@
 @import "normalize.css";
 @import "global.css";
+@import "modal/login.css";
 @import "modal/sidebar.css";
 @import "modal/bet-par-popup.css";
 @import "modal/language-popup.css";

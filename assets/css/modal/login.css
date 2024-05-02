@@ -1,0 +1,36 @@
+.login{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 304px;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    background: #16171D;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30);
+}
+
+.login-title-container{
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.login-title{
+    color: #E2E3E9;
+    text-align: center;
+
+    /* Subtitle M */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 150% */
+    align-items: center;
+}
+
+.login-close-modal{
+    position: absolute;
+    border: none;
+    background: transparent;
+    right: 0;
+}
